@@ -1,0 +1,66 @@
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    
+}
+
+.flex-container h2 {
+    text-align: center;
+    border-bottom: 2px solid black;
+    
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+}
+
+.list li{
+    background-color: rgb(99, 202, 202);
+    width: 400px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    margin-top: 10px;
+}
+
+.list p{
+    padding: 20px 0;
+}
+
+.list button{
+    margin: 10px;
+    margin-left: auto;
+    font-size: 16px;
+}
+
+li > input[type="checkbox"] {
+    margin: 16px;
+    position: relative; 
+  }
+
+.header{ 
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;  
+    justify-content: center;  
+  }
+
+  .header label{
+    font-size: 20px;
+    margin-right: 10px;
+  }
+
+  .header input{
+      margin: 10px;
+
+  }
+
+  .header button{
+      position: relative;
+      left: 50px;
+  }
